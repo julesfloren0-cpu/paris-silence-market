@@ -1,0 +1,17 @@
+[project]
+name = "paris-silence-market"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.4.3",
+    "polars>=1.37.1",
+    "pydeck>=0.9.1",
+    "streamlit>=1.53.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.13",
+]

@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# --- .gitignore ---
+# Ignore les données (Le code est public, la donnée reste locale)
+data/
+*.parquet
+*.csv
+*.db
+*.duckdb
+
+# Ignore l'environnement virtuel et les caches
+.venv/
+__pycache__/
+.DS_Store
+
+# Ignore les secrets (Clés API éventuelles) [cite: 316]
+.env
