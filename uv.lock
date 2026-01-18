@@ -378,6 +378,7 @@ dependencies = [
     { name = "duckdb" },
     { name = "polars" },
     { name = "pydeck" },
+    { name = "requests" },
     { name = "streamlit" },
 ]
 
@@ -391,6 +392,7 @@ requires-dist = [
     { name = "duckdb", specifier = ">=1.4.3" },
     { name = "polars", specifier = ">=1.37.1" },
     { name = "pydeck", specifier = ">=0.9.1" },
+    { name = "requests", specifier = ">=2.32.5" },
     { name = "streamlit", specifier = ">=1.53.0" },
 ]
 

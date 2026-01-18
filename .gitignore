@@ -9,17 +9,21 @@ wheels/
 # Virtual environments
 .venv
 # --- .gitignore ---
-# Ignore les données (Le code est public, la donnée reste locale)
+# DATA (Jamais sur GitHub)
 data/
 *.parquet
 *.csv
 *.db
 *.duckdb
+*.zip
+*.gz
+*.shp
+*.shx
+*.dbf
+*.prj
 
-# Ignore l'environnement virtuel et les caches
+# ENVIRONNEMENT
 .venv/
 __pycache__/
 .DS_Store
-
-# Ignore les secrets (Clés API éventuelles) [cite: 316]
 .env
